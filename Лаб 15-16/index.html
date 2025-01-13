@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математическая игра</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro-screen" class="intro-screen">
+        <h1>Добро пожаловать в математическую игру!</h1>
+        <p>Правила игры: Вам нужно решить простые математические примеры на сложение. 
+           Каждый уровень будет немного сложнее, а время на ответ будет сокращаться. 
+           Вы должны выбрать правильный ответ и перетащить его в соответствующее поле.
+           У вас будет 60 секунд на решение каждого примера.</p>
+        <button id="start-button">Начать игру</button>
+    </div>
+
+    <div id="game-screen" class="game-container" style="display: none;">
+        <h1>Математическая игра</h1>
+        <div id="level">Уровень: 1</div>
+        <div id="problem"></div>
+        <div id="answers"></div>
+        <div id="timer">Время: <span id="time">60</span> сек</div>
+        <div id="result"></div>
+        <button id="restart-button" style="display: none;">Начать заново</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
