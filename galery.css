@@ -1,0 +1,93 @@
+@import url(floor.css);
+.galery{
+    display: grid;
+    grid-template-rows: 200px auto;
+    padding-top:10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.galery_inf{
+    display: grid;
+    justify-content: center;
+
+}
+.galery_inf_h{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.galery_inf_text{
+    font-size: 14px;
+
+}
+.galery_pics{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    gap:30px;
+}
+.galery_pics_col3{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:5%;
+
+}
+.galery_pics_col3_pic:hover{
+    scale: 1.1;
+}
+.galery_pics_col2_pic:hover{
+    scale: 1.1;
+}
+.galery_pics_col3_pic{
+    border-radius: 20px;
+}
+#f1
+{
+    background-image: url(images/galery/risynok1_img.png);
+    background-size: cover;
+}
+#f2
+{
+    background-image: url(images/galery/risynok2_img.png);
+    background-size: cover;
+}
+#f3
+{
+    background-image: url(images/galery/risynok3_img.png);
+    background-size: cover;
+}
+#f4
+{
+    background-image: url(images/galery/risynok4_img.png);
+    background-size: cover;
+}
+#f5
+{
+    background-image: url(images/galery/risynok5_img.png);
+    background-size: cover;
+}
+#f6
+{
+    background-image: url(images/galery/risynok6_img.png);
+    background-size: cover;
+}
+#f7
+{
+    background-image: url(images/galery/risynok7_img.png);
+    background-size: cover;
+}
+#f8
+{
+    background-image: url(images/galery/risynok8_img.png);
+    background-size: cover;
+}
+.galery_pics_col2{
+    display: grid;
+    grid-template-columns: 33% 33%;
+    gap:5%;
+    justify-content: center;
+}
+.galery_pics_col2_pic{
+    border-radius: 20px;
+
+}

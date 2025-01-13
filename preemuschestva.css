@@ -1,0 +1,49 @@
+.preemuschestva{
+    display: grid;
+    grid-template-rows: 100px auto;
+    background-color: rgb(80, 80, 80);
+    padding: 10%;
+    padding-top: 5%;
+    height: 700px;
+}
+.preemuschestva_h{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.preemuschestva_cards{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    gap:10%
+
+}
+.preemuschestva_card_col3{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:5%
+}
+.preemuschestva_card{
+    display: grid;
+    gap:20px;
+    padding: 5%;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 10%
+}
+.preemuschestva_card:hover{
+    scale: 1.1;
+    background-color: rgb(193, 193, 193);
+}
+.preemuschestva_card_h{
+    font-weight: 700;
+    width: 80%;
+    font-size: 20px;
+}
+.preemuschestva_pic{
+display: flex;
+justify-content: center;
+}
+.preemuschestva_pic img{
+    width:30%;
+}

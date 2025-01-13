@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма с валидацией и регулярными выражениями</title>
+    <link rel="stylesheet" href="stile.css">
+    
+</head>
+<body>
+    <div class="form-container">
+        <h3>Форма регистрации</h3>
+        <form id="userForm">
+            <!-- Текстовое поле -->
+            <label for="username">Имя:</label>
+            <input type="text" id="username" name="username" placeholder="Введите ваше имя" required>
+
+            <!-- Электронная почта -->
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+
+            <!-- Флажок (Checkbox) -->
+            <label class="qqq">
+                 Подписаться на новости <input type="checkbox" id="subscribe" name="subscribe">
+            </label>
+
+            <!-- Переключатели (Radio buttons) -->
+            <label>Пол:</label>
+            <label class="qqq">
+                 Мужчина<input type="radio" name="gender" value="male" required>
+            </label>
+            <label class="qqq">
+                 Женщина<input type="radio" name="gender" value="female">
+            </label>
+
+            <!-- Список (Select) -->
+            <label for="country">Страна:</label>
+            <select id="country" name="country" required>
+                <option value="">Выберите страну</option>
+                <option value="Россия">Россия</option>
+                <option value="Беларусь">Беларусь</option>
+                <option value="Германия">Германия</option>
+            </select>
+
+            <!-- Кнопка отправки -->
+            <button type="submit" id="submitButton" >Отправить</button>
+        </form>
+
+        <div id="errorMessages" class="error"></div>
+        <div id="result" class="output"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

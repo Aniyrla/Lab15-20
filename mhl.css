@@ -1,0 +1,211 @@
+
+@import url(about_us.css);
+@import url(o_proizvodstve.css);
+@import url(galery.css);
+@import url(preemuschestva.css);
+.custom-button {
+    display: flex;
+    margin-top: 15px;
+    border: none;
+    background-image: url(karta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33px; /* Задаем ширину кнопки */
+    height: 49px; /* Задаем высоту кнопки */
+}
+.chas {
+    display: flex;
+    border: none;
+    background-image: url(chas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 51px; /* Задаем ширину кнопки */
+    height: 52px; /* Задаем высоту кнопки */
+    margin-top: 13px;
+}
+.truba {
+    display: flex;
+    border: none;
+    background-image: url(truba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 51px; /* Задаем ширину кнопки */
+    height: 52px; /* Задаем высоту кнопки */
+    margin-top: 13px;
+}
+.potolok {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px;
+    text-align: left;
+    border: 2px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+}
+.zvonok {
+    border-radius: 5em;
+    font-size: 18px;
+    width: 250px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.zvonok:hover {
+    scale: 1.1;
+}
+.item1 {
+    display: flex;
+    padding: 25px;
+}
+.item2 {
+    display: flex;
+    padding: 25px;
+}
+.item3 {
+    display: flex;
+    padding: 25px;
+}
+.item4 {
+    display: flex;
+    padding: 33px;
+    padding-left: 10px;
+} 
+.polosa {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px;
+    background-color: white;
+}
+#log {
+    display:flex;
+    padding: 18px;
+}
+#od {
+    display:flex;
+    padding: 25px;
+}
+#dva {
+    display:flex;
+    padding: 25px;
+}
+#tri{
+    display:flex;
+    padding: 25px;
+}
+#chet{
+    display:flex;
+    padding: 25px;
+}
+#pat{
+    display:flex;
+    padding: 25px;
+}
+#shest{
+    display:flex;
+    padding: 25px;
+}
+.pipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+    text-align: center;
+    border: 2px;
+    color: white;
+    background-image: url(24.png);
+    background-size: cover;
+    height: 762px;
+}
+#text1 {
+    padding-top: 110px;
+    font-weight: bold;
+    font-size: 70px;
+}
+#meloch {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#tex{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.kat {
+    display: block;
+    background-color:rgb(226, 100, 9);
+    color:white;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    border-width: 0;
+    border-radius: 5em;
+    width: 250px;
+    height: 70px;
+}
+.kat:hover {
+    scale: 1.1;
+}
+.katalog {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.katalog img{
+    height: 70%;
+    margin-top: 10%;
+    
+}
+.it{
+    border-radius: 23px;
+    border:none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+.it:hover{
+    scale: 1.1;
+}
+.katalog1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 3%;
+}
+.more_tovarov_btn_ob{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.more_tovarov_btn{
+    height: 65px;
+    width: 16%;
+    border-radius: 50px;
+    background-color: rgb(226, 100, 9);
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.more_tovarov_btn:hover{
+    scale: 1.1;
+}
+button{
+    cursor: pointer;
+}

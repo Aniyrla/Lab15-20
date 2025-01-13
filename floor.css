@@ -1,0 +1,101 @@
+.floor{
+    display: grid;
+    grid-template-rows: 95% 5%;
+    height: 280px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+.floor_p1{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 25%;
+    gap: 5%;
+}
+.floor_col1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.floor_h{
+    font-size: 30px;
+    color: orange;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.floor_time{  
+    display: grid;
+    grid-template-columns: 30px auto;
+}
+.floor_time span{
+    text-align: center;
+}
+.floor_phone{
+    display: grid;
+    grid-template-columns: 30px auto;
+}
+.floor_phones{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0;
+}
+.floor_phones p{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.floor_phone span{
+    text-align: center;
+}
+.floor_col2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.floor_col2 p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.floor_col3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.floor_col3 p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.floor_col4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.floor_col4 p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.floor_p2{
+    text-align: center;
+}
+#fixedButton {
+    position: fixed;
+    z-index: 100;
+    bottom: 4%;
+    right: 4%;
+    background-color: rgb(211, 211, 211, 50%) ;
+    border-radius: 100%;
+    border:none;
+    height: 70px;
+    width: 70px;
+    /* Дополнительные стили (цвет, размер, шрифт и т. д.) */
+}
+#fixedButton:hover{
+    scale: 1.1;
+}
+.for_button{
+    position: relative;
+}

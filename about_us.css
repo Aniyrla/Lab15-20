@@ -1,0 +1,57 @@
+@import url(top_tovarov.css);
+.about_us{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(62, 62, 62);
+
+}
+.about_us_kamaz{
+    border-radius: 0 40px 40px 0;
+    background-image: url(images/about_us/kamaz_img.png);
+    background-size: cover;
+}
+.about_us_inf{
+    display: grid;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap:50px
+}
+.about_us_inf_h{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 50px;
+    color: white;
+}
+.about_us_inf_lil_h{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+}
+.about_us_inf_text{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(180, 180, 180);
+}
+.about_us_inf_btn_ob{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10%;
+}
+.about_us_inf_btn{
+    height: 70px;
+    width: 40%;
+    border-radius: 50px;
+    background-color: rgb(226, 100, 9);
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.about_us_inf_btn:hover{
+    scale: 1.1;
+}

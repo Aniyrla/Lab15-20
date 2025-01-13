@@ -1,0 +1,74 @@
+.o_proizvodstve{
+    display: grid;
+    grid-template-rows: 100px auto;
+    background-color: rgb(65, 65, 65);
+    height: 750px;
+}
+.o_proizvodstve_h{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 5%;
+    color:white;
+}
+.o_proizvodstve_b1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display:grid ;
+    grid-template-columns: 40% 60%;
+    margin-top: 5%;
+    gap:30px;
+}
+.o_proizvodstve_p1{
+    display:grid ;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap:40px;
+    margin-top: 5%;
+}
+.o_proizvodstve_p1_pic{
+    height: 100px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.o_proizvodstve_p1_pic:hover{
+scale: 1.1;
+}
+.o_proizvodstve_p1_card{
+    display: grid;
+    grid-template-columns: 100px auto;
+    height: 100px;
+}
+.o_proizvodstve_p1_card:hover{
+    scale: 1.1;
+    background-color: rgb(135, 135, 135);
+    border-radius: 20px;
+}
+.o_proizvodstve_p1_card_pic{
+    height: 100%;
+    width: 100%;
+}
+.o_proizvodstve_p1_card_img{
+    height: 100%;
+    width: 100%;
+}
+.o_proizvodstve_p1_card_text{
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.o_proizvodstve_p2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.o_proizvodstve_p2_vid{
+
+    width: 100%;
+}
